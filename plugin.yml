@@ -1,0 +1,6 @@
+---
+name: PotatoBan
+main: xtakumatutix\potato\Main
+version: 1.0.2
+api: 3.12.0
+...
