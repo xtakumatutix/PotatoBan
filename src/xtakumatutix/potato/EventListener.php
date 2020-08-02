@@ -10,13 +10,6 @@ use pocketmine\block\Potato;
 
 class EventListener implements Listener
 {
-    private $Main;
-
-    public function __construct(Main $Main)
-    {
-        $this->Main = $Main;
-    }
-
     public function onbreak(BlockBreakEvent $event)
     {
         $block = $event->getBlock();
